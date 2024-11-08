@@ -27,7 +27,7 @@ with col3:
 st.subheader('모델 활용')
 st.write('**** 공부시간을 입력하세요.. 인공지능이 당신의 합격/불합격 분류 결과를 알려드립니다!')
 
-a = st.number_input(' 공부시간 입력 ', value=0)   # 사용자 입력
+a = st.number_input(' 공부시간을 입력하세요 ', value=0)   # 사용자 입력
 
 if st.button('합불분류'):              # 사용자가 '합불분류' 버튼을 누르면
         input_data = [[ a ]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
